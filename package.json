@@ -1,7 +1,7 @@
 {
-  "name": "templateone",
+  "name": "richbrowsermusichistory",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a template designed to by cloned for simple projects that require JQuery, and need tasks to be automated with Gulp.",
   "main": "index.js",
   "scripts": {
     "test": "tape javascripts/specs/test.js | tap-spec"
@@ -29,5 +29,13 @@
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^3.7.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wmfwarren/basicProjectTemplateOne.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wmfwarren/basicProjectTemplateOne/issues"
+  },
+  "homepage": "https://github.com/wmfwarren/basicProjectTemplateOne#readme"
 }
