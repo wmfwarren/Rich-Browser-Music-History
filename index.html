@@ -7,7 +7,68 @@
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	
+	<!-- All content -->
+	<div class="allContent">
+	<!-- this is the header -->
+		<header>
+			<ul class="headNavBarList">
+				<!-- <li class="inline-block"><a href="">View Music</a></li> -->
+				<li class="inline-block"><a href="#">Profile</a></li>
+				<li  class="inline-block"><a href="#" id="songList">List Songs</a></li>
+				<li  class="inline-block"><a href="#" id="addMusic">Add Music</a></li>
+			</ul>
+		</header>
+		<inputfield id="addMusicInfo" class="hidden"> 
+			<input type="text" class="block center" name="songName" id="songName" placeholder="Song Title" value="">
+			<input type="text" class="block center" name="albumName" id="albumName" placeholder="Album Title" value="">
+			<input type="text" class="block center" name="artistName" id="artistName" placeholder="Artist Name" value="">
+			<button id="submitSongInfo" class="block center">Add</button>
+		</inputfield>
+	<!-- This is the lower left section -->
+		<div id="songInfo" class="songInfo left">
+			<label>Song Length:
+				<input type="range" name="songLength" min="0" max="360" step="1" value="180" >
+			</label>
+			<label> Artist:
+				<select name="Artist">
+					<option value="Options">Options</option>
+				</select>
+			</label>
+			<label> Album:
+				<select name="Album">
+					<option value="Options">Options</option>
+				</select>
+			</label>
+			<!-- The genre check box columns -->
+			<label>Genre:</label>
+			<!-- Left three genres -->
+				<div class="genres">	
+					<div class="leftGenres left">
+						<label class="checkLabels">
+							<input type="checkbox" name="Rock">Rock</label>
+						<label class="checkLabels">
+							<input type="checkbox" name="Pop"> Pop</label>
+						<label class="checkLabels">
+							<input type="checkbox" name="Blues"> Blues</label>
+					</div>
+					<!-- Right three Genres -->
+					<div class="rightGenres left">
+						<label class="checkLabels">
+							<input type="checkbox" name="Classical"> Classical</label>
+						<label class="checkLabels">
+							<input type="checkbox" name="Jazz"> Jazz</label>
+						<label class="checkLabels">
+							<input type="checkbox" name="Hip-Hop"> Hip-Hop</label>
+					</div>
+				</div>
+			<button class="" name="filter">Filter</button>
+			</div>
+	<!-- This is the lower right section -->
+		<div id="songDisplay" class="songDisplay left">
+			<!-- Songs go here -->
+		</div>
+		<button id="moreButton" name="More Songs">More Songs!</button>
+	</div>	
 	<script src="node_modules/jquery/dist/jquery.min.js"></script>
 	<script src="dist/bundle.js"></script>
 </body>
