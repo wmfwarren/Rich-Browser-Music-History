@@ -8,4 +8,5 @@ npm install
 This project uses:
 + JQuery
 + Browserfy
++ Sass
 + Gulp

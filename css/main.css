@@ -1,0 +1,17 @@
+.floatLeft {
+  float: left; }
+
+.inline-block, .headNavBarList li {
+  display: inline-block; }
+
+.block {
+  display: block; }
+
+.center {
+  text-align: center; }
+
+.clear, .headNavBarList {
+  clear: both; }
+
+.headNavBarList li {
+  list-style-type: none; }
