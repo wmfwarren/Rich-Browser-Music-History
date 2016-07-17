@@ -70,7 +70,17 @@
 		
 	</div>	
 
-
+	<script src="https://www.gstatic.com/firebasejs/3.2.0/firebase.js"></script>
+	<script>
+	  // Initialize Firebase
+	  var config = {
+	    apiKey: "AIzaSyAhUPAySdRHRl8FNeFQOIsd-Jnipepshdc",
+	    authDomain: "music-history-with-firebase.firebaseapp.com",
+	    databaseURL: "https://music-history-with-firebase.firebaseio.com",
+	    storageBucket: "",
+	  };
+	  firebase.initializeApp(config);
+	</script>
 	<script src="node_modules/jquery/dist/jquery.min.js"></script>
 	<script src="dist/bundle.js"></script>
 </body>

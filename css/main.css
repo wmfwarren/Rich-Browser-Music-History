@@ -1,7 +1,7 @@
-.floatLeft {
+.left {
   float: left; }
 
-.inline-block, .headNavBarList li {
+.inline-block, .headNavBarList li, .albumTitle, .artistName {
   display: inline-block; }
 
 .block {
@@ -15,3 +15,21 @@
 
 .headNavBarList li {
   list-style-type: none; }
+
+.songDisplay {
+  width: 60%;
+  height: 500px;
+  background: yellow;
+  border: 1px black solid;
+  overflow: scroll; }
+
+.songEntry {
+  padding-left: 1em; }
+
+.albumTitle {
+  margin: 2px;
+  padding-right: 2px; }
+
+.artistName {
+  margin: 2px;
+  padding-left: 3px; }

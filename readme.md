@@ -7,6 +7,6 @@ npm install
 ```
 This project uses:
 + JQuery
-+ Browserfy
++ Browserify
 + Sass
 + Gulp
